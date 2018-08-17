@@ -26,7 +26,13 @@ namespace Lista
                 Console.Write(i.ToString());
             }
 
+            int t = listadeinteiros.Find(x => x == 1);
+
+            Console.WriteLine("A lista contém " + t);
+
             Console.ReadLine();
+
+            
 
         }
     }
